@@ -1,13 +1,6 @@
 name: Maven and SCA_SAST_Secret scan with DC,  FindSecBug and GitLeaks
 
 on:
- workflow_call:
-  inputs:
-    file_path:
-      required: true
-      type: string
-
-on:
   push:
     branches: [ "main" ]
   pull_request:
